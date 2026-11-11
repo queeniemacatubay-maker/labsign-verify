@@ -1,0 +1,3 @@
+import { VerifyForm } from "./verify-form";
+export const dynamic="force-dynamic";
+export default function Verify(){return <main className="center"><div className="panel"><div className="brand"><div className="logo">LV</div><div><h1>LabSign Verify</h1><p>Laboratory issuance-date verification</p></div></div><div style={{height:25}}/><div className="eyebrow">Public verification</div><h2 className="h2">Check an issuance date</h2><p className="muted">Enter the issuance date printed on the laboratory result. Do not enter today's scanning date unless it is also the printed issuance date.</p><VerifyForm/><p className="footer">This service checks date authorization only. It does not authenticate patient identity or confirm that a report has not been altered.</p></div></main>}
